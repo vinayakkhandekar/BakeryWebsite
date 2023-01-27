@@ -9,3 +9,8 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+
+let hbtn = document.querySelector("#hideBtn")
+hbtn.onclick = ()=>{
+    document.getElementById("hideDiv").style.display = "none"
+} 

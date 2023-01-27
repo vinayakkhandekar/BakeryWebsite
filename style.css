@@ -106,7 +106,7 @@
 }
 :root {
   --main-color: #008148;
-  --second-color: #1e3932;
+  --second-color: #008148;
 }
 section {
   padding: 50px 10%;
@@ -443,3 +443,36 @@ header {
     flex-direction: column;
   }
 }
+#container{
+  padding-top: 20px;
+}
+#pagination{
+  display: flex;
+  justify-content: center;
+}
+
+.blocks{
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #DDDDDD;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+.blocks:not(:first-child){
+  margin-left: 5px;
+}
+.blocks:first-child{
+  border-radius: 10px 0 0 10px;
+}
+.blocks:last-child{
+  border-radius: 0 10px 10px 0;
+}
+.blocks:hover{
+  background-color: #DDDDDD;
+}
+#pagination a.active{
+  back
+
+
